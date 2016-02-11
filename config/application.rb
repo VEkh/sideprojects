@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module HashrocketSideprojects
+module SideProjects
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -22,5 +22,12 @@ module HashrocketSideprojects
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # Assets
+    # Enable the asset pipeline
+    config.assets.enabled = true
+
+    # Precompile additional assets
+    config.assets.precompile += %w( *.js *.css .svg .eot .woff .ttf )
   end
 end

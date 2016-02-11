@@ -1,1 +1,1 @@
-For when your main project isn't enough.
+Be honest...you've got one.
