@@ -20,6 +20,6 @@ class ApplicationController < ActionController::Base
 
   # Prepare the view's variables
   def prepare_view
-    @title = "Side Projects"
+    @title = "Hothackers"
   end
 end

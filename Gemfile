@@ -7,6 +7,7 @@ gem 'rails', '4.2.5'
 gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails' # Use jquery as the JavaScript library
+gem 'octokit' # Github Ruby client
 gem 'pg' # Postgresql gem
 gem 'react-rails' # Make it easier to use react jsx files with the asset pipeline
 gem 'sass-rails', '~> 5.0' # Use SCSS for stylesheets
