@@ -3,7 +3,7 @@ Rails.application.configure do
 
   # React
   # Render unminified react js files
-  config.react.variant = :development
+  config.react.variant = :production
 
   # Code is not reloaded between requests.
   config.cache_classes = true
